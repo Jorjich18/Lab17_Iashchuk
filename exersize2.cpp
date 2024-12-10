@@ -19,7 +19,7 @@ int main()
 	for (int i = 0; i < 9; i++) cin >> a[i];
 	change(a, 15, min);
 	cout << "Changed array:\n";
-	for (int i = 0; i < 15; i++) cout << a[i] << "\t";
+	for (int i = 0; i < 9; i++) cout << a[i] << "\t";
 	cout << endl;
 	return 0;
 }
